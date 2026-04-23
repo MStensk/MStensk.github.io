@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Portfolio</title>
-    <link>//localhost:1313/categories/</link>
-    <description>Recent content in Categories on Portfolio</description>
+    <title>LLM on Portfolio</title>
+    <link>//localhost:1313/tags/llm/</link>
+    <description>Recent content in LLM on Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>mathias_stensler@live.dk (Mathias Færch Stensler)</managingEditor>
     <webMaster>mathias_stensler@live.dk (Mathias Færch Stensler)</webMaster>
     <copyright>© 2026 Mathias Færch Stensler</copyright>
-    <lastBuildDate>Thu, 23 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/llm/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Projects</title>
-      <link>//localhost:1313/categories/projects/</link>
+      <title>Building a RAG Chatbot</title>
+      <link>//localhost:1313/posts/rag-chatbot/</link>
       <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
       <author>mathias_stensler@live.dk (Mathias Færch Stensler)</author>
-      <guid>//localhost:1313/categories/projects/</guid>
+      <guid>//localhost:1313/posts/rag-chatbot/</guid>
       <description></description>
       
     </item>
