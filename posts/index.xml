@@ -2,41 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Portfolio</title>
-    <link>/posts/</link>
+    <link>//localhost:1313/posts/</link>
     <description>Recent content in Posts on Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>mathias_stensler@live.dk (Mathias Færch Stensler)</managingEditor>
     <webMaster>mathias_stensler@live.dk (Mathias Færch Stensler)</webMaster>
     <copyright>© 2026 Mathias Færch Stensler</copyright>
-    <lastBuildDate>Mon, 27 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>AI Code Agent: Login System with JWT</title>
-      <link>/posts/coding-agents/</link>
+      <link>//localhost:1313/posts/coding-agents/</link>
       <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
       <author>mathias_stensler@live.dk (Mathias Færch Stensler)</author>
-      <guid>/posts/coding-agents/</guid>
+      <guid>//localhost:1313/posts/coding-agents/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>One Piece RAG Chatbot</title>
-      <link>/posts/rag-chatbot-one-piece/</link>
+      <link>//localhost:1313/posts/rag-chatbot-one-piece/</link>
       <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
       <author>mathias_stensler@live.dk (Mathias Færch Stensler)</author>
-      <guid>/posts/rag-chatbot-one-piece/</guid>
+      <guid>//localhost:1313/posts/rag-chatbot-one-piece/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Building a RAG Chatbot</title>
-      <link>/posts/rag-chatbot/</link>
+      <link>//localhost:1313/posts/rag-chatbot/</link>
       <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
       <author>mathias_stensler@live.dk (Mathias Færch Stensler)</author>
-      <guid>/posts/rag-chatbot/</guid>
+      <guid>//localhost:1313/posts/rag-chatbot/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Building a Smart Event Management Solution for Engestofte</title>
+      <link>//localhost:1313/posts/engestofte-pt1/</link>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+      <author>mathias_stensler@live.dk (Mathias Færch Stensler)</author>
+      <guid>//localhost:1313/posts/engestofte-pt1/</guid>
       <description></description>
       
     </item>

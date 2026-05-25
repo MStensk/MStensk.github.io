@@ -2,51 +2,91 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Portfolio</title>
-    <link>/tags/</link>
+    <link>//localhost:1313/tags/</link>
     <description>Recent content in Tags on Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>mathias_stensler@live.dk (Mathias Færch Stensler)</managingEditor>
     <webMaster>mathias_stensler@live.dk (Mathias Færch Stensler)</webMaster>
     <copyright>© 2026 Mathias Færch Stensler</copyright>
-    <lastBuildDate>Thu, 23 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>AI</title>
-      <link>/tags/ai/</link>
+      <link>//localhost:1313/tags/ai/</link>
       <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
       <author>mathias_stensler@live.dk (Mathias Færch Stensler)</author>
-      <guid>/tags/ai/</guid>
+      <guid>//localhost:1313/tags/ai/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Automation</title>
+      <link>//localhost:1313/tags/automation/</link>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+      <author>mathias_stensler@live.dk (Mathias Færch Stensler)</author>
+      <guid>//localhost:1313/tags/automation/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Business Systems</title>
+      <link>//localhost:1313/tags/business-systems/</link>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+      <author>mathias_stensler@live.dk (Mathias Færch Stensler)</author>
+      <guid>//localhost:1313/tags/business-systems/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Chatbot</title>
-      <link>/tags/chatbot/</link>
+      <link>//localhost:1313/tags/chatbot/</link>
       <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
       <author>mathias_stensler@live.dk (Mathias Færch Stensler)</author>
-      <guid>/tags/chatbot/</guid>
+      <guid>//localhost:1313/tags/chatbot/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>LLM</title>
-      <link>/tags/llm/</link>
+      <link>//localhost:1313/tags/llm/</link>
       <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
       <author>mathias_stensler@live.dk (Mathias Færch Stensler)</author>
-      <guid>/tags/llm/</guid>
+      <guid>//localhost:1313/tags/llm/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Node.js</title>
+      <link>//localhost:1313/tags/node.js/</link>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+      <author>mathias_stensler@live.dk (Mathias Færch Stensler)</author>
+      <guid>//localhost:1313/tags/node.js/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>RAG</title>
-      <link>/tags/rag/</link>
+      <link>//localhost:1313/tags/rag/</link>
       <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
       <author>mathias_stensler@live.dk (Mathias Færch Stensler)</author>
-      <guid>/tags/rag/</guid>
+      <guid>//localhost:1313/tags/rag/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>React</title>
+      <link>//localhost:1313/tags/react/</link>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+      <author>mathias_stensler@live.dk (Mathias Færch Stensler)</author>
+      <guid>//localhost:1313/tags/react/</guid>
       <description></description>
       
     </item>

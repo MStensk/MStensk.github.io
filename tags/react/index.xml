@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Chatbot on Portfolio</title>
-    <link>//localhost:1313/tags/chatbot/</link>
-    <description>Recent content in Chatbot on Portfolio</description>
+    <title>React on Portfolio</title>
+    <link>//localhost:1313/tags/react/</link>
+    <description>Recent content in React on Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>mathias_stensler@live.dk (Mathias Færch Stensler)</managingEditor>
     <webMaster>mathias_stensler@live.dk (Mathias Færch Stensler)</webMaster>
     <copyright>© 2026 Mathias Færch Stensler</copyright>
-    <lastBuildDate>Thu, 23 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/chatbot/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/react/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Building a RAG Chatbot</title>
-      <link>//localhost:1313/posts/rag-chatbot/</link>
+      <title>Building a Smart Event Management Solution for Engestofte</title>
+      <link>//localhost:1313/posts/engestofte-pt1/</link>
       <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
       <author>mathias_stensler@live.dk (Mathias Færch Stensler)</author>
-      <guid>//localhost:1313/posts/rag-chatbot/</guid>
+      <guid>//localhost:1313/posts/engestofte-pt1/</guid>
       <description></description>
       
     </item>
