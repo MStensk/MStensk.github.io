@@ -15,16 +15,20 @@
 
   
   
-    <title>AI Code Agent: Login System with JWT &middot; Portfolio</title>
-    <meta name="title" content="AI Code Agent: Login System with JWT &middot; Portfolio">
+    <title>Implementing the Engestofte Gods Solution &middot; Portfolio</title>
+    <meta name="title" content="Implementing the Engestofte Gods Solution &middot; Portfolio">
   
 
   
   
+    <meta name="description" content="A closer look at the technical implementation choices behind our Engestofte Gods project.">
+  
+  
+    <meta name="keywords" content="React,Node.js,PostgreSQL,Automation,">
   
   
   
-  <link rel="canonical" href="/posts/coding-agents/">
+  <link rel="canonical" href="/posts/engestofte-pt2/">
   
   
 
@@ -41,18 +45,24 @@
   
 
   
-  <meta property="og:url" content="/posts/coding-agents/">
+  <meta property="og:url" content="/posts/engestofte-pt2/">
   <meta property="og:site_name" content="Portfolio">
-  <meta property="og:title" content="AI Code Agent: Login System with JWT">
+  <meta property="og:title" content="Implementing the Engestofte Gods Solution">
+  <meta property="og:description" content="A closer look at the technical implementation choices behind our Engestofte Gods project.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2026-04-27T00:00:00+00:00">
-    <meta property="article:modified_time" content="2026-04-27T00:00:00+00:00">
+    <meta property="article:published_time" content="2026-05-24T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-05-24T00:00:00+00:00">
+    <meta property="article:tag" content="React">
+    <meta property="article:tag" content="Node.js">
+    <meta property="article:tag" content="PostgreSQL">
+    <meta property="article:tag" content="Automation">
 
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="AI Code Agent: Login System with JWT">
+  <meta name="twitter:title" content="Implementing the Engestofte Gods Solution">
+  <meta name="twitter:description" content="A closer look at the technical implementation choices behind our Engestofte Gods project.">
 
   
   
@@ -203,25 +213,25 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Posts",
-    "name": "AI Code Agent: Login System with JWT",
-    "headline": "AI Code Agent: Login System with JWT",
-    
+    "name": "Implementing the Engestofte Gods Solution",
+    "headline": "Implementing the Engestofte Gods Solution",
+    "description": "A closer look at the technical implementation choices behind our Engestofte Gods project.",
     "inLanguage": "en",
-    "url" : "/posts/coding-agents/",
+    "url" : "/posts/engestofte-pt2/",
     "author" : {
       "@type": "Person",
       "name": "Mathias Færch Stensler"
     },
     "copyrightYear": "2026",
-    "dateCreated": "2026-04-27T00:00:00\u002b00:00",
-    "datePublished": "2026-04-27T00:00:00\u002b00:00",
+    "dateCreated": "2026-05-24T00:00:00\u002b00:00",
+    "datePublished": "2026-05-24T00:00:00\u002b00:00",
     
-    "dateModified": "2026-04-27T00:00:00\u002b00:00",
+    "dateModified": "2026-05-24T00:00:00\u002b00:00",
     
-    
+    "keywords": ["React","Node.js","PostgreSQL","Automation"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "235"
+    "wordCount": "672"
   }]
   </script>
 
@@ -385,7 +395,7 @@
     <header id="single_header" class="mt-5 max-w-prose">
       
       <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-        AI Code Agent: Login System with JWT
+        Implementing the Engestofte Gods Solution
       </h1>
       <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
         
@@ -437,7 +447,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2026-04-27T00:00:00&#43;00:00">27 April 2026</time><span class="px-2 text-primary-500">&middot;</span><span>235 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
+      <time datetime="2026-05-24T00:00:00&#43;00:00">24 May 2026</time><span class="px-2 text-primary-500">&middot;</span><span>672 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
     
 
     
@@ -550,207 +560,201 @@
         
 
         <div class="article-content max-w-prose mb-20">
-          <hr>
-
-<h1 class="relative group">🤖 AI Code Agent: Login System
-    <div id="-ai-code-agent-login-system" class="anchor"></div>
+          
+<h1 class="relative group">Implementing the Engestofte Gods Solution
+    <div id="implementing-the-engestofte-gods-solution" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-ai-code-agent-login-system" aria-label="Anchor">#</a>
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#implementing-the-engestofte-gods-solution" aria-label="Anchor">#</a>
     </span>
     
 </h1>
-<p>This project demonstrates how I used an AI code agent to design and implement a secure login system.</p>
+<p>After identifying the workflow and communication issues at Engestofte Gods, the next step was designing a technical solution that could realistically support automation, scalability, and centralized data management.</p>
+<p>This post focuses less on the business problem itself and more on the implementation choices we made during development.</p>
 <hr>
 
-<h2 class="relative group">🎯 Task
-    <div id="-task" class="anchor"></div>
+<h1 class="relative group">Why We Chose React
+    <div id="why-we-chose-react" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-task" aria-label="Anchor">#</a>
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#why-we-chose-react" aria-label="Anchor">#</a>
     </span>
     
-</h2>
-<p>Build a login system using:</p>
+</h1>
+<p>For the frontend, we chose React because we wanted a component-based architecture that would scale well as the project grew.</p>
+<p>The project contains multiple dynamic UI elements:</p>
 <ul>
-<li>Java</li>
-<li>Javalin</li>
-<li>Hibernate</li>
-<li>JWT authentication</li>
+<li>customer forms</li>
+<li>booking overviews</li>
+<li>event dashboards</li>
+<li>filtering</li>
+<li>reusable input components</li>
 </ul>
+<p>React made it possible to structure these features into reusable components instead of building everything as isolated pages.</p>
+<p>Another advantage was state management.</p>
+<p>Because customer data flows through several parts of the system, React allowed us to keep the UI responsive while handling form state and conditional rendering efficiently.</p>
+<p>We were also already familiar with React from previous projects, which made development significantly faster. Since we already understood the framework and ecosystem well, we could spend more time focusing on workflow architecture and problem-solving instead of learning a new technology stack from scratch.</p>
 <hr>
 
-<h2 class="relative group">⚙️ Features
-    <div id="-features" class="anchor"></div>
+<h1 class="relative group">Backend Architecture
+    <div id="backend-architecture" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-features" aria-label="Anchor">#</a>
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#backend-architecture" aria-label="Anchor">#</a>
     </span>
     
-</h2>
+</h1>
+<p>We decided to use Node.js with Express for the backend.</p>
+<p>The main reason was flexibility and speed of development.</p>
+<p>Since the project revolves around handling requests, customer data, and automation logic, Express gave us a lightweight way to build APIs without unnecessary complexity.</p>
+<p>The backend was structured around:</p>
 <ul>
-<li>User registration</li>
-<li>Secure login</li>
-<li>Password hashing (BCrypt)</li>
-<li>JWT authentication</li>
-<li>Protected routes</li>
+<li>route handling</li>
+<li>controllers</li>
+<li>service logic</li>
+<li>database communication</li>
 </ul>
-<hr>
-
-<h2 class="relative group">🔄 Workflow with AI
-    <div id="-workflow-with-ai" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-workflow-with-ai" aria-label="Anchor">#</a>
-    </span>
-    
-</h2>
-
-<h3 class="relative group">1. Architecture design
-    <div id="1-architecture-design" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#1-architecture-design" aria-label="Anchor">#</a>
-    </span>
-    
-</h3>
-<p>I started by prompting the AI:</p>
-<blockquote><p>&ldquo;Create a login system using Javalin, Hibernate and JWT&rdquo;</p>
-</blockquote><p>The AI suggested a layered architecture:</p>
+<p>This separation made the project easier to maintain and extend.</p>
+<p>For example:</p>
 <ul>
-<li>Controller</li>
-<li>Service</li>
-<li>DAO</li>
-<li>JWT Utility</li>
+<li>customer creation</li>
+<li>booking management</li>
+<li>automated workflows</li>
+<li>email generation</li>
 </ul>
+<p>could all be isolated into their own modules.</p>
 <hr>
 
-<h3 class="relative group">2. Initial implementation
-    <div id="2-initial-implementation" class="anchor"></div>
+<h1 class="relative group">Why PostgreSQL
+    <div id="why-postgresql" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#2-initial-implementation" aria-label="Anchor">#</a>
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#why-postgresql" aria-label="Anchor">#</a>
     </span>
     
-</h3>
-<p>The AI generated:</p>
+</h1>
+<p>One of the biggest decisions was moving away from spreadsheet-style thinking entirely.</p>
+<p>We wanted structured relational data from the beginning.</p>
+<p>That is why we chose PostgreSQL.</p>
+<p>The project naturally contains connected entities such as:</p>
 <ul>
-<li>Register endpoint</li>
-<li>Login endpoint</li>
-<li>JWT token generation</li>
+<li>customers</li>
+<li>events</li>
+<li>bookings</li>
+<li>menus</li>
+<li>budgets</li>
+<li>staff assignments</li>
 </ul>
-<p>However, the initial solution had issues:</p>
+<p>A relational database made these relationships manageable and scalable.</p>
+<p>PostgreSQL also gave us:</p>
 <ul>
-<li>Missing validation</li>
-<li>Weak error handling</li>
-<li>No route protection</li>
+<li>strong querying capabilities</li>
+<li>reliable data consistency</li>
+<li>structured relationships</li>
+<li>future scalability</li>
 </ul>
+<p>We were already comfortable working with PostgreSQL from previous school projects, which meant we could design the database structure confidently without slowing down the development process.</p>
+<p>Using a real database instead of scattered files or Excel sheets was one of the most important architectural decisions in the project.</p>
 <hr>
 
-<h3 class="relative group">3. Debugging
-    <div id="3-debugging" class="anchor"></div>
+<h1 class="relative group">Designing the Workflow
+    <div id="designing-the-workflow" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#3-debugging" aria-label="Anchor">#</a>
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#designing-the-workflow" aria-label="Anchor">#</a>
     </span>
     
-</h3>
-<p>I collaborated with the AI to fix:</p>
+</h1>
+<p>One of the biggest technical discussions we had was:</p>
+<blockquote><p>How little information can the user input while still allowing the system to automate meaningful tasks?</p>
+</blockquote><p>That question shaped most of the implementation.</p>
+<p>Instead of large free-text forms, we moved toward structured input using:</p>
 <ul>
-<li>Hibernate mapping issues</li>
-<li>Null pointer errors</li>
-<li>Incorrect JWT configuration</li>
+<li>dropdowns</li>
+<li>categories</li>
+<li>checkboxes</li>
+<li>predefined selections</li>
 </ul>
+<p>This made the data easier to process automatically.</p>
+<p>For example:</p>
+<p>If a customer selects:</p>
+<ul>
+<li>Wedding</li>
+<li>120 guests</li>
+<li>Buffet</li>
+<li>Premium package</li>
+</ul>
+<p>the system already has enough structured data to:</p>
+<ul>
+<li>estimate resources</li>
+<li>generate offer templates</li>
+<li>classify the booking</li>
+<li>prepare internal workflows</li>
+</ul>
+<p>without requiring manual interpretation every time.</p>
+<p>That became one of the core ideas behind the system.</p>
 <hr>
 
-<h3 class="relative group">4. Refactoring
-    <div id="4-refactoring" class="anchor"></div>
+<h1 class="relative group">AI-Assisted Inquiry Flow
+    <div id="ai-assisted-inquiry-flow" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#4-refactoring" aria-label="Anchor">#</a>
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#ai-assisted-inquiry-flow" aria-label="Anchor">#</a>
     </span>
     
-</h3>
-<p>The AI helped improve:</p>
+</h1>
+<p>One of the more experimental parts of the project was integrating AI into the customer inquiry process.</p>
+<p>Instead of sending raw customer messages directly to the business owner, we explored a workflow where structured form data would be forwarded to an AI assistant.</p>
+<p>The AI could then:</p>
 <ul>
-<li>Separation of concerns</li>
-<li>Code readability</li>
-<li>Naming conventions</li>
+<li>generate a professional response draft</li>
+<li>summarize the inquiry</li>
+<li>suggest pricing structures</li>
+<li>prepare offer text</li>
 </ul>
+<p>This approach was interesting because it combined traditional CRUD systems with AI-assisted workflow automation.</p>
+<p>The goal was not full automation.</p>
+<p>The goal was reducing repetitive administrative work while keeping human oversight in the loop.</p>
 <hr>
 
-<h3 class="relative group">5. Security improvements
-    <div id="5-security-improvements" class="anchor"></div>
+<h1 class="relative group">Technical Reflection
+    <div id="technical-reflection" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#5-security-improvements" aria-label="Anchor">#</a>
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#technical-reflection" aria-label="Anchor">#</a>
     </span>
     
-</h3>
-<p>We added:</p>
+</h1>
+<p>One of the biggest lessons from the project was understanding how important system architecture becomes once software starts representing real business workflows.</p>
+<p>Small technical decisions suddenly mattered much more:</p>
 <ul>
-<li>BCrypt password hashing</li>
-<li>JWT middleware</li>
-<li>Token validation</li>
+<li>how data is structured</li>
+<li>where logic belongs</li>
+<li>how workflows scale</li>
+<li>how systems communicate</li>
 </ul>
+<p>The project became less about “building pages” and more about designing operational infrastructure.</p>
+<p>That shift in mindset was probably the most valuable part of the entire process.</p>
 <hr>
 
-<h2 class="relative group">Key Learnings
-    <div id="key-learnings" class="anchor"></div>
+<h1 class="relative group">Repository
+    <div id="repository" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#key-learnings" aria-label="Anchor">#</a>
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#repository" aria-label="Anchor">#</a>
     </span>
     
-</h2>
-<ul>
-<li>AI is effective for scaffolding backend systems</li>
-<li>Debugging requires human understanding</li>
-<li>Security must be validated manually</li>
-<li>Iteration improves output quality</li>
-</ul>
-<hr>
-
-<h2 class="relative group">Example flow
-    <div id="example-flow" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#example-flow" aria-label="Anchor">#</a>
-    </span>
-    
-</h2>
-<div class="highlight-wrapper"><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">User registers → Password hashed → Stored in DB
-</span></span><span class="line"><span class="cl">User logs in → JWT generated → Used for protected routes</span></span></code></pre></div></div>
-<hr>
-
-<h2 class="relative group">Conclusion
-    <div id="conclusion" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#conclusion" aria-label="Anchor">#</a>
-    </span>
-    
-</h2>
-<p>AI code agents can significantly speed up backend development, but require:</p>
-<ul>
-<li>Critical thinking</li>
-<li>Validation</li>
-<li>Security awareness</li>
-</ul>
-<p>They are best used as <strong>collaborative tools</strong> rather than replacements.</p>
-<hr>
+</h1>
+<p>GitHub Repository:</p>
+<p><a href="https://github.com/Ghostfear1713/Engestofte-Gods"  target="_blank" rel="noreferrer">https://github.com/Ghostfear1713/Engestofte-Gods</a></p>
 
           
           
@@ -780,9 +784,9 @@
           
             <a
               class="flex text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
-              href="/posts/rag-chatbot-one-piece/">
+              href="/posts/coding-agents/">
               <span class="leading-6">
-                <span class="inline-block rtl:rotate-180">&larr;</span>&ensp;One Piece RAG Chatbot
+                <span class="inline-block rtl:rotate-180">&larr;</span>&ensp;AI Code Agent: Login System with JWT
               </span>
             </a>
             
@@ -793,19 +797,6 @@
           
         </span>
         <span class="flex flex-col items-end">
-          
-            <a
-              class="flex text-right text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
-              href="/posts/engestofte-pt2/">
-              <span class="leading-6">
-                Implementing the Engestofte Gods Solution&ensp;<span class="inline-block rtl:rotate-180">&rarr;</span>
-              </span>
-            </a>
-            
-              <span class="me-6 mt-1 text-xs text-neutral-500 dark:text-neutral-400">
-                <time datetime="2026-05-24T00:00:00&#43;00:00">24 May 2026</time>
-              </span>
-            
           
         </span>
       </div>
