@@ -27,6 +27,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>/posts/ai-llm/</loc>
+    <lastmod>2026-04-27T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>/posts/rag-chatbot-one-piece/</loc>
     <lastmod>2026-04-27T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
